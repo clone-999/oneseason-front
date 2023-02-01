@@ -52,8 +52,8 @@ const UserIndex = () => {
               </div>
 
               <div className="flex flex-col text-center mt-3 mb-4">
-                <span className="text-2xl font-medium">{user.name}</span>
-                <span className="text-md text-gray-400">{user.email}</span>
+                <span className="text-2xl font-medium">{user?.name}</span>
+                <span className="text-md text-gray-400">{user?.email}</span>
               </div>
 
               <p className="px-16 text-center text-md text-gray-800">Address</p>
