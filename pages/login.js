@@ -61,7 +61,7 @@ export default function Login() {
                                 <div className="md:p-12 md:mx-6">
                                     <div className="text-center">
                                         <h2 className="mx-auto w-48 text-blue-900 text-3xl text">ONESEASON</h2>
-                                        <h4 className="text-xl font-semibold mt-1 mb-12 pb-1">Welcome Back!</h4>
+                                        <h4 className="text-xl font-semibold mt-1 mb-12 pb-1">Welcome Back</h4>
                                     </div>
                                     <form onSubmit={handleSubmit}>
                                         <p className="mb-4">Please login to your account</p>
@@ -99,7 +99,7 @@ export default function Login() {
                                             <a className="text-gray-500" href="#!">Forgot password?</a>
                                         </div>
                                         <div className="flex items-center justify-between pb-6">
-                                            <p className="mb-0 mr-2">Don't have an account?</p>
+                                            <p className="mb-0 mr-2">Dont have an account?</p>
                                             <Link
                                             href={'/register'}
                                             className="inline-block px-6 py-2 border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
