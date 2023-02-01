@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { useRouter } from "next/router";
 import { SyncOutlined } from "@ant-design/icons";
-import UserNav from "../nav/UserNav";
 
 const UserRoute = ({ children, showNav = true }) => {
   // state
